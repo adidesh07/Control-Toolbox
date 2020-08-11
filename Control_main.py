@@ -235,7 +235,7 @@ def main_window():
     BG_label = tk.Label(frame, image=BG1)
     BG_label.place(relx=0, rely=0, relwidth=1, relheight=0.2)
 
-    
+
     label1 = tk.Label(frame, text="Visualise and analyse control systems easily\n1. View a transfer function by giving the numerator and denominator coefficients\n"
                                 "2. Make various plots and get time and frequency responses\n"
                                 "3. Get transfer function properties like DC gain, poles and zeros", font="comicsans 12", bg="#FFFFFF")
