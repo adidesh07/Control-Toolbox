@@ -8,8 +8,8 @@ Icons used from www.flaticon.com
 
 ## Home Screen
 
-![](Images/Main.jpg)
+![](Images/Main.JPG)
 
 ## Plots Screen
 
-![](Images/Plots.jpg)
+![](Images/Plots.JPG)
