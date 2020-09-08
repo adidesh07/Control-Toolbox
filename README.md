@@ -8,9 +8,9 @@ Icons used from www.flaticon.com
 
 ## Home Screen
 The user can select from the three options:
-  1. View Transfer Function
-  2. Make Plots
-  3. Transfer Function Properties
+ 1. View Transfer Function
+ 2. Make Plots
+ 3. Transfer Function Properties
 
 ![](Images/Main.JPG)
 
@@ -18,3 +18,12 @@ The user can select from the three options:
 By giving space separeted coefficients of numerator and denominator of the transfer function, user can get the time and frequency response plots of the system.
 
 ![](Images/Plots.JPG)
+
+## Transfer Function Properties
+By giving space separeted coefficients of numerator and denominator of the transfer function, user can get the following for the transfer fucntion:   
+ 1. Minimum transfer function
+ 2. DC Gain
+ 3. Poles
+ 4. Zeros
+ 
+ ![](Images/Properties.JPG)

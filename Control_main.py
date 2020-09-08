@@ -1,5 +1,4 @@
 import control as co
-import numpy as np
 import matplotlib.pyplot as plt
 import tkinter as tk
 from PIL import Image, ImageTk, ImageDraw, ImageFont
@@ -82,7 +81,7 @@ def gen_TF():
     label4 = tk.Label(WIN, text="Transfer Function:", font="comicsans 10")
     entry1 = tk.Entry(WIN, font=25)
     entry2 = tk.Entry(WIN, font=25)
-    view_TF = tk.Button(WIN, text="View Transfer Function", bg="#6666FF",
+    view_TF = tk.Button(WIN, text="View Transfer Function", fg="#FFFFFF", bg="#004C99",
                         command=lambda: control.print_TF(WIN, entry1.get(), entry2.get(), "15", 0, 0.5, 1))
 
     label1.place(relx=0.1, rely=0.03, relwidth=0.8)
@@ -169,7 +168,7 @@ def tf_properties():
     draw = ImageDraw.Draw(BG)
     font1 = ImageFont.truetype("GARABD", 23)
     font2 = ImageFont.truetype("ANTQUAB", 13)
-    draw.text((75, 240), "Find different properties of transfer function", "white", font=font1)
+    draw.text((75, 240), "Find different properties of transfer function!", "white", font=font1)
     BG1 = ImageTk.PhotoImage(image=BG)
 
 
@@ -225,9 +224,9 @@ def main_window():
     image = ImageTk.PhotoImage(Image.open("C:\\Users\\Admin\\Desktop\\Deck\\feedback.png").resize((150,120)))
     BG = Image.open("C:\\Users\\Admin\\Desktop\\Deck\\control-bg3.png").resize((WIDTH, HEIGHT))
     draw = ImageDraw.Draw(BG)
-    font1 = ImageFont.truetype("GARABD", 27)
+    font1 = ImageFont.truetype("GARABD", 39)
     font2 = ImageFont.truetype("ANTQUAB", 15)
-    draw.text((78, 240), "Welcome to Control Systems Toolbox!", "white", font=font1)
+    draw.text((100, 230), "Control Systems Toolbox", "white", font=font1)
     BG1 = ImageTk.PhotoImage(image=BG)
 
 
