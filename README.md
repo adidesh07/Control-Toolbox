@@ -2,7 +2,7 @@
 This is a tool-box GUI made using Tkinter package in python meant for visualising and analysing control systems.
 
 User can get time and frequency response plots and get transfer function properties by giving the coefficients of the transfer function as inputs.
-Control, and Matplotlib modules are used for analysis and plotting. PIL library used to handle images.
+Control, and Matplotlib modules are used for analysis and plotting. PIL library is used to handle images.
 
 Icons used from www.flaticon.com 
 
