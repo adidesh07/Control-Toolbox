@@ -27,3 +27,5 @@ By giving space separeted coefficients of numerator and denominator of the trans
  4. Zeros
  
  ![](Images/Properties.JPG)
+ 
+To run this toolbox, you should have Tkinter package installed in your system. Download and run the main.py code to start using.
