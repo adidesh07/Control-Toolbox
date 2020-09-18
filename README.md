@@ -37,7 +37,7 @@ For this sample transfer function the following plots can be obtained:
 
 ![](Images/Nyquist.png)
 
- ####Root Locus:
+ ###Root Locus:
 
 ![](Images/RL.png)
 
@@ -52,5 +52,3 @@ By giving space separated coefficients of numerator and denominator of the trans
  
 To run this toolbox, you should have Tkinter package installed in your system. Download and run the main.py file to start using.
 
-
-[]: www.flaticon.com
