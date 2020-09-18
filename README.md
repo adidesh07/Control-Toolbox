@@ -4,7 +4,8 @@ This is a tool-box GUI made using Tkinter package in python meant for visualisin
 User can get time and frequency response plots and get transfer function properties by giving the coefficients of the transfer function as inputs.
 Control, and Matplotlib modules are used for analysis and plotting. PIL library is used to handle images.
 
-Icons used from www.flaticon.com 
+The idea behind this toolbox is based on the Control Systems toolbox in Matlab. However, Matlab not being an open source software, cannot be accessed by everyone.
+This toolbox is primarily for the electrical and electronics engineers who wish to easily analyse control systems in an open source platform.
 
 ## Home Screen
 The user can select from the three options:
@@ -51,4 +52,5 @@ By giving space separated coefficients of numerator and denominator of the trans
  ![](Images/Properties.JPG)
  
 To run this toolbox, you should have Tkinter package installed in your system. Download and run the main.py file to start using.
+Icons used from www.flaticon.com 
 
