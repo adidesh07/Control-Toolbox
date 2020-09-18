@@ -21,23 +21,23 @@ By giving space separated coefficients of numerator and denominator of the trans
 
 For this sample transfer function the following plots can be obtained:
 
- ####Step Response:
+##### Step Response:
 
 ![](Images/Step.png)
 
- ####Impulse Response:
+##### Impulse Response:
 
 ![](Images/Impulse.png)
 
- ####Bode Plot:
+##### Bode Plot:
 
 ![](Images/Bode.png)
 
- ####Nyquist Plot:
+##### Nyquist Plot:
 
 ![](Images/Nyquist.png)
 
- ###Root Locus:
+##### Root Locus:
 
 ![](Images/RL.png)
 
