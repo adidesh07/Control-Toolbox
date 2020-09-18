@@ -15,12 +15,34 @@ The user can select from the three options:
 ![](Images/Main.JPG)
 
 ## Plots Screen
-By giving space separeted coefficients of numerator and denominator of the transfer function, user can get the time and frequency response plots of the system.
+By giving space separated coefficients of numerator and denominator of the transfer function, user can get the time and frequency response plots of the system.
 
 ![](Images/Plots.JPG)
 
+For this sample transfer function the following plots can be obtained:
+
+ ####Step Response:
+
+![](Images/Step.png)
+
+ ####Impulse Response:
+
+![](Images/Impulse.png)
+
+ ####Bode Plot:
+
+![](Images/Bode.png)
+
+ ####Nyquist Plot:
+
+![](Images/Nyquist.png)
+
+ ####Root Locus:
+
+![](Images/RL.png)
+
 ## Transfer Function Properties
-By giving space separeted coefficients of numerator and denominator of the transfer function, user can get the following for the transfer fucntion:   
+By giving space separated coefficients of numerator and denominator of the transfer function, user can get the following for the transfer fucntion:   
  1. Minimum transfer function
  2. DC Gain
  3. Poles
@@ -29,3 +51,6 @@ By giving space separeted coefficients of numerator and denominator of the trans
  ![](Images/Properties.JPG)
  
 To run this toolbox, you should have Tkinter package installed in your system. Download and run the main.py file to start using.
+
+
+[]: www.flaticon.com
