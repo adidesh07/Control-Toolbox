@@ -1,4 +1,4 @@
-# Control Toolbox
+# Control Systems Toolbox
 This is a tool-box GUI made using Tkinter package in Python meant for visualising and analysing control systems.
 
 The idea behind this toolbox is based on the Control Systems toolbox in Matlab. However, Matlab not being an open source software, cannot be accessed by everyone.
